@@ -1,12 +1,12 @@
 Summary:	General tool for mathematics
 Summary(pl):	Rozbudowane narzêdzie matematyczne
 Name:		drgeo
-Version:	0.9.13
+Version:	0.9.14
 Release:	1
 License:	GPL
 Group:		X11/Applications
 Source0:	http://dl.sourceforge.net/ofset/%{name}-%{version}.tar.gz
-# Source0-md5:	0ab4c1e1e72f4ffc8ef6c02a58036098
+# Source0-md5:	b25686232bfab258fb0bb418af142ffe
 Patch0:		%{name}-locale_names.patch
 URL:		http://ofset.sourceforge.net/drgeo/
 BuildRequires:	autoconf
