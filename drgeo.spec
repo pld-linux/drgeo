@@ -21,6 +21,7 @@ BuildRequires:	libstdc++-devel
 BuildRequires:	libtool
 BuildRequires:	libxml-devel
 BuildRequires:	readline-devel >= 4.2
+Obsoletes:	drgenius
 Obsoletes:	genius
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
