@@ -1,0 +1,9 @@
+diff -urN drgeo-0.9.14.orig/drgeo.desktop.in drgeo-0.9.14/drgeo.desktop.in
+--- drgeo-0.9.14.orig/drgeo.desktop.in	2004-11-30 19:01:12.259108280 +0100
++++ drgeo-0.9.14/drgeo.desktop.in	2004-11-30 19:02:04.321193640 +0100
+@@ -7,4 +7,4 @@
+ Terminal=false
+ StartupNotify=true
+ Type=Application
+-Categories=GNOME;Application;Education;Math;
++Categories=GTK;Education;Science;Math;
