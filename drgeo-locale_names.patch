@@ -1,10 +1,10 @@
---- drgeo-0.9.13/configure.ac~	2004-04-29 22:05:20.000000000 +0200
-+++ drgeo-0.9.13/configure.ac	2004-08-25 14:38:23.680870744 +0200
+--- drgeo-1.0.0/configure.ac~	2005-06-12 01:16:31.311833264 +0000
++++ drgeo-1.0.0/configure.ac	2005-06-12 01:19:01.399016544 +0000
 @@ -53,7 +53,7 @@
  dnl **********************************************************************
  dnl * 	INTERNATIONALIZATION SUPPORT					 *
  dnl **********************************************************************
--ALL_LINGUAS="az ca cs da de el en_CA en_GB es fr ga gl gu hi hr hu it ja ml mr nl no pl pt pt_BR ru sl sq sr sr@Latn sv uk zh_CN zh_TW"
+-ALL_LINGUAS="az ca cs da de el en_CA en_GB es fr ga gl gu hi hr hu it ja ml mr nl no_NO nb_NO pl pt pt_BR ru sl sq sr sr@Latn sv uk zh_CN zh_TW"
 +ALL_LINGUAS="az ca cs da de el en_CA en_GB es fr ga gl gu hi hr hu it ja ml mr nl nb pl pt pt_BR ru sl sq sr sr@Latn sv uk zh_CN zh_TW"
  
  GETTEXT_PACKAGE=drgeo
