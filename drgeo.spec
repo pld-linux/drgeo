@@ -9,7 +9,7 @@ Source0:	http://dl.sourceforge.net/ofset/%{name}-%{version}.tar.gz
 # Source0-md5:	397158a710f9437b463739e1d008ee12
 Patch0:		%{name}-locale_names.patch
 Patch1:		%{name}-desktop.patch
-URL:		http://ofset.sourceforge.net/drgeo/
+URL:		http://www.ofset.org/drgeo
 BuildRequires:	autoconf
 BuildRequires:	automake
 BuildRequires:	bison
