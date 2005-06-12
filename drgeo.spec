@@ -1,12 +1,12 @@
 Summary:	General tool for mathematics
 Summary(pl):	Rozbudowane narzêdzie matematyczne
 Name:		drgeo
-Version:	0.9.14
-Release:	2
+Version:	1.0.0
+Release:	0.1
 License:	GPL
 Group:		X11/Applications
 Source0:	http://dl.sourceforge.net/ofset/%{name}-%{version}.tar.gz
-# Source0-md5:	b25686232bfab258fb0bb418af142ffe
+# Source0-md5:	397158a710f9437b463739e1d008ee12
 Patch0:		%{name}-locale_names.patch
 Patch1:		%{name}-desktop.patch
 URL:		http://ofset.sourceforge.net/drgeo/
@@ -17,6 +17,7 @@ BuildRequires:	flex
 BuildRequires:	gettext-devel
 BuildRequires:	glib-devel >= 1.2.0
 BuildRequires:	gmp-devel >= 3.1.1
+BuildRequires:	guile-devel
 BuildRequires:	libglade2-devel
 BuildRequires:	libstdc++-devel
 BuildRequires:	libtool
@@ -45,7 +46,7 @@ precyzji, liczby ca³kowite, zespolone oraz macierze.
 %patch0 -p1
 %patch1 -p1
 
-mv po/{no,nb}.po
+mv po/nb{_NO,}.po
 
 # force regeneration, included versions have broken cpp directives
 rm -f gobobjs/*.[ch]*
