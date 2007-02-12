@@ -1,5 +1,5 @@
 Summary:	General tool for mathematics
-Summary(pl.UTF-8):   Rozbudowane narzędzie matematyczne
+Summary(pl.UTF-8):	Rozbudowane narzędzie matematyczne
 Name:		drgeo
 Version:	1.0.0
 Release:	0.1
