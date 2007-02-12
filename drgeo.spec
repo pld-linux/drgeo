@@ -1,5 +1,5 @@
 Summary:	General tool for mathematics
-Summary(pl):	Rozbudowane narzêdzie matematyczne
+Summary(pl.UTF-8):   Rozbudowane narzÄ™dzie matematyczne
 Name:		drgeo
 Version:	1.0.0
 Release:	0.1
@@ -34,12 +34,12 @@ programming language and evaluator, an euclidian geometry tool, a
 calculator handles multiple precision floating point numbers, infinite
 precision integers, complex numbers and matrixes.
 
-%description -l pl
-Dr. Geo to narzêdzie do rozwi±zywania problemów matematycznych.
-Zawiera ono matematyczny jêzyk programowania, narzêdzie do geometrii
-euklidesowej, narzêdzie do generowania wykresów 2D/3D oraz konsolowy
-kalkulator. Kalkulator obs³uguje liczby zmiennoprzecinkowe wysokiej
-precyzji, liczby ca³kowite, zespolone oraz macierze.
+%description -l pl.UTF-8
+Dr. Geo to narzÄ™dzie do rozwiÄ…zywania problemÃ³w matematycznych.
+Zawiera ono matematyczny jÄ™zyk programowania, narzÄ™dzie do geometrii
+euklidesowej, narzÄ™dzie do generowania wykresÃ³w 2D/3D oraz konsolowy
+kalkulator. Kalkulator obsÅ‚uguje liczby zmiennoprzecinkowe wysokiej
+precyzji, liczby caÅ‚kowite, zespolone oraz macierze.
 
 %prep
 %setup -q
