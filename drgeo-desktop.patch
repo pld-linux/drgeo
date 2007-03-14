@@ -1,7 +1,12 @@
-diff -urN drgeo-0.9.14.orig/drgeo.desktop.in drgeo-0.9.14/drgeo.desktop.in
---- drgeo-0.9.14.orig/drgeo.desktop.in	2004-11-30 19:01:12.259108280 +0100
-+++ drgeo-0.9.14/drgeo.desktop.in	2004-11-30 19:02:04.321193640 +0100
-@@ -7,4 +7,4 @@
+diff -Nur drgeo-1.1.0.orig/drgeo.desktop.in drgeo-1.1.0.desktop/drgeo.desktop.in
+--- drgeo-1.1.0.orig/drgeo.desktop.in	2003-08-16 18:47:15.000000000 +0000
++++ drgeo-1.1.0.desktop/drgeo.desktop.in	2007-03-14 17:30:52.000000000 +0000
+@@ -3,8 +3,8 @@
+ _Name=Dr.Geo
+ _Comment=Dr.Geo Math Tool
+ Exec=drgeo
+-Icon=gnome-drgenius.png
++Icon=drgeo.png
  Terminal=false
  StartupNotify=true
  Type=Application
