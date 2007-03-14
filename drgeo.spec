@@ -47,8 +47,10 @@ precyzji, liczby całkowite, zespolone oraz macierze.
 %patch0 -p1
 %patch1 -p1
 
-rm -rf po/no.po
+rm -f po/no.po
 
+# missing file
+[ ! -f glade/drgeo.xpm ]
 convert glade/drgeo.{png,xpm}
 
 %build
