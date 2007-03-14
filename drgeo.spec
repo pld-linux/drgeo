@@ -1,15 +1,16 @@
 Summary:	General tool for mathematics
 Summary(pl.UTF-8):	Rozbudowane narzędzie matematyczne
 Name:		drgeo
-Version:	1.0.0
-Release:	0.1
+Version:	1.1.0
+Release:	1
 License:	GPL
 Group:		X11/Applications
 Source0:	http://dl.sourceforge.net/ofset/%{name}-%{version}.tar.gz
-# Source0-md5:	397158a710f9437b463739e1d008ee12
+# Source0-md5:	4ee0a887e819266740867959cbb4095f
 Patch0:		%{name}-locale_names.patch
 Patch1:		%{name}-desktop.patch
-URL:		http://www.ofset.org/drgeo
+URL:		http://www.ofset.org/en/drgeo
+BuildRequires:	ImageMagick-coder-png
 BuildRequires:	autoconf
 BuildRequires:	automake
 BuildRequires:	bison
@@ -46,10 +47,9 @@ precyzji, liczby całkowite, zespolone oraz macierze.
 %patch0 -p1
 %patch1 -p1
 
-mv po/nb{_NO,}.po
+rm -rf po/no.po
 
-# force regeneration, included versions have broken cpp directives
-rm -f gobobjs/*.[ch]*
+convert glade/drgeo.{png,xpm}
 
 %build
 rm -f acinclude.m4
@@ -70,6 +70,7 @@ rm -rf $RPM_BUILD_ROOT
 	DESTDIR=$RPM_BUILD_ROOT \
 	Utilitiesdir=%{_desktopdir}
 
+install glade/drgeo.png $RPM_BUILD_ROOT%{_pixmapsdir}
 %find_lang %{name} --with-gnome --all-name
 
 %clean
